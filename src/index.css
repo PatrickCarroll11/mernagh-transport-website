@@ -12,8 +12,8 @@
     --card-foreground: 220 15% 12%;
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 12%;
-    --primary: 214 52% 25%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 109 100% 40%;
+    --primary-foreground: 220 20% 12%;
     --accent: 23 97% 46%;
     --accent-foreground: 0 0% 100%;
     --secondary: 214 21% 93%;
@@ -22,24 +22,24 @@
     --muted-foreground: 220 10% 40%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    --border: 214 6% 88%;
-    --input: 214 6% 88%;
+    --border: 109 12% 88%;
+    --input: 109 12% 88%;
     --ring: 23 97% 46%;
     --radius: 0.5rem;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 220 15% 12%;
-    --sidebar-primary: 214 52% 25%;
-    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-primary: 109 100% 40%;
+    --sidebar-primary-foreground: 220 20% 12%;
     --sidebar-accent: 23 39% 93%;
     --sidebar-accent-foreground: 220 15% 12%;
     --sidebar-border: 214 6% 88%;
     --sidebar-ring: 23 97% 46%;
-    --brand-green: 214 52% 25%;
-    --brand-green-light: 214 21% 93%;
+    --brand-green: 109 100% 40%;
+    --brand-green-light: 109 100% 92%;
     --brand-accent: 23 97% 46%;
     --brand-accent-light: 23 39% 93%;
     --brand-dark: 220 15% 12%;
-    --section-alt: 214 8% 96%;
+    --section-alt: 109 15% 96%;
   }
 }
 
@@ -54,7 +54,7 @@
   .hero-gradient {
     background: linear-gradient(
       to bottom,
-      hsla(214, 52%, 25%, 0.75) 0%,
+      hsla(109, 100%, 30%, 0.75) 0%,
       hsla(220, 15%, 8%, 0.9) 100%
     );
   }
