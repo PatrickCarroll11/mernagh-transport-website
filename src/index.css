@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 15% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 12%;
+    --primary: 214 52% 25%;
+    --primary-foreground: 0 0% 100%;
+    --accent: 23 97% 46%;
+    --accent-foreground: 0 0% 100%;
+    --secondary: 214 21% 93%;
+    --secondary-foreground: 220 15% 12%;
+    --muted: 214 8% 96%;
+    --muted-foreground: 220 10% 40%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 6% 88%;
+    --input: 214 6% 88%;
+    --ring: 23 97% 46%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 220 15% 12%;
+    --sidebar-primary: 214 52% 25%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 23 39% 93%;
+    --sidebar-accent-foreground: 220 15% 12%;
+    --sidebar-border: 214 6% 88%;
+    --sidebar-ring: 23 97% 46%;
+    --brand-green: 214 52% 25%;
+    --brand-green-light: 214 21% 93%;
+    --brand-accent: 23 97% 46%;
+    --brand-accent-light: 23 39% 93%;
+    --brand-dark: 220 15% 12%;
+    --section-alt: 214 8% 96%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground font-body antialiased; }
+  h1, h2, h3, h4, h5, h6 { @apply font-heading font-bold tracking-tight; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .hero-gradient {
+    background: linear-gradient(
+      to bottom,
+      hsla(214, 52%, 25%, 0.75) 0%,
+      hsla(220, 15%, 8%, 0.9) 100%
+    );
+  }
+  .section-alt { background-color: hsl(214 8% 96%); }
+  .btn-accent { background-color: hsl(var(--accent)); color: hsl(var(--accent-foreground)); }
+  .btn-accent:hover { background-color: hsla(23, 97%, 38%, 1); }
+}

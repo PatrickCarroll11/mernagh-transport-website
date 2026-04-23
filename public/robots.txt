@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://PatrickCarroll11.github.io/mernagh-transport-website/sitemap.xml
