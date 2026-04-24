@@ -12,9 +12,9 @@
     --card-foreground: 220 15% 12%;
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 12%;
-    --primary: 109 100% 40%;
+    --primary: 108 100% 40%;
     --primary-foreground: 220 20% 12%;
-    --accent: 23 97% 46%;
+    --accent: 108 100% 40%;
     --accent-foreground: 0 0% 100%;
     --secondary: 214 21% 93%;
     --secondary-foreground: 220 15% 12%;
@@ -22,24 +22,24 @@
     --muted-foreground: 220 10% 40%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    --border: 109 12% 88%;
-    --input: 109 12% 88%;
-    --ring: 23 97% 46%;
+    --border: 108 12% 88%;
+    --input: 108 12% 88%;
+    --ring: 108 100% 40%;
     --radius: 0.5rem;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 220 15% 12%;
-    --sidebar-primary: 109 100% 40%;
+    --sidebar-primary: 108 100% 40%;
     --sidebar-primary-foreground: 220 20% 12%;
     --sidebar-accent: 23 39% 93%;
     --sidebar-accent-foreground: 220 15% 12%;
     --sidebar-border: 214 6% 88%;
-    --sidebar-ring: 23 97% 46%;
-    --brand-green: 109 100% 40%;
-    --brand-green-light: 109 100% 92%;
+    --sidebar-ring: 108 100% 40%;
+    --brand-green: 108 100% 40%;
+    --brand-green-light: 108 100% 92%;
     --brand-accent: 23 97% 46%;
     --brand-accent-light: 23 39% 93%;
-    --brand-dark: 220 15% 12%;
-    --section-alt: 109 15% 96%;
+    --brand-dark: 0 0% 10%;
+    --section-alt: 108 15% 96%;
   }
 }
 
@@ -52,11 +52,7 @@
 @layer utilities {
   .text-balance { text-wrap: balance; }
   .hero-gradient {
-    background: linear-gradient(
-      to bottom,
-      hsla(109, 100%, 30%, 0.75) 0%,
-      hsla(220, 15%, 8%, 0.9) 100%
-    );
+    background: linear-gradient(135deg, hsla(108, 100%, 40%, 0.85), hsla(150, 10%, 15%, 0.9));
   }
   .section-alt { background-color: hsl(214 8% 96%); }
   .btn-accent { background-color: hsl(var(--accent)); color: hsl(var(--accent-foreground)); }
